@@ -1,0 +1,21 @@
+
+> hasmop-corporate-site@1.0.0 dev
+> vite --host 0.0.0.0 --port 5173 --force
+
+[2m11:32:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Forced re-optimization of dependencies
+
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m185[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.7:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[31m(!) Failed to run dependency scan. Skipping dependency pre-bundling. Error: spawn EPERM
+    at ChildProcess.spawn (node:internal/child_process:421:11)
+    at Object.spawn (node:child_process:796:9)
+    at ensureServiceIsRunning (C:\Users\Halil\Desktop\Hasmop\node_modules\esbuild\lib\main.js:2268:29)
+    at Object.context (C:\Users\Halil\Desktop\Hasmop\node_modules\esbuild\lib\main.js:2167:33)
+    at prepareEsbuildScanner (file:///C:/Users/Halil/Desktop/Hasmop/node_modules/vite/dist/node/chunks/config.js:31458:23)
+    at async scan (file:///C:/Users/Halil/Desktop/Hasmop/node_modules/vite/dist/node/chunks/config.js:31384:14)
+    at async file:///C:/Users/Halil/Desktop/Hasmop/node_modules/vite/dist/node/chunks/config.js:34115:15[39m
+[2m11:33:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: spawn EPERM
+[2m12:31:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
